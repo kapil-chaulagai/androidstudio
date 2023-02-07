@@ -181,7 +181,7 @@
         android:includeFontPadding="true"
         android:paddingBottom="40dp"
         android:text="X's Turn : Tap to Play"
-        android:textColor="#C7CBCC"
+        android:textColor="#00BCD4"
         android:textColorHint="#B5AEAE"
         android:textSize="34sp"
         android:textStyle="bold|italic"

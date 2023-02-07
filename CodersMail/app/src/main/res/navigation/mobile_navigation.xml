@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.isteer.codersmail.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_inbox"
+        android:name="com.isteer.codersmail.ui.inbox.InboxFragment"
+        android:label="@string/menu_inbox"
+        tools:layout="@layout/fragment_inbox" />
+
+    <fragment
+        android:id="@+id/nav_outbox"
+        android:name="com.isteer.codersmail.ui.outbox.OutboxFragment"
+        android:label="@string/menu_outbox"
+        tools:layout="@layout/fragment_outbox" />
+
+    <fragment
+        android:id="@+id/nav_sentbox"
+        android:name="com.isteer.codersmail.ui.sentbox.SentboxFragment"
+        android:label="@string/menu_sentbox"
+        tools:layout="@layout/fragment_sentbox" />
+
+    <fragment
+        android:id="@+id/nav_draft"
+        android:name="com.isteer.codersmail.ui.draft.DraftFragment"
+        android:label="@string/menu_draft"
+        tools:layout="@layout/fragment_draft" />
+
+    <fragment
+        android:id="@+id/nav_trash"
+        android:name="com.isteer.codersmail.ui.trash.TrashFragment"
+        android:label="@string/menu_trash"
+        tools:layout="@layout/fragment_trash" />
+
+    <fragment
+        android:id="@+id/nav_photos"
+        android:name="com.isteer.codersmail.ui.drive.photos.PhotosFragment"
+        android:label="@string/menu_documents"
+        tools:layout="@layout/fragment_documents" />
+
+    <fragment
+        android:id="@+id/nav_documents"
+        android:name="com.isteer.codersmail.ui.drive.documents.DocumentsFragment"
+        android:label="@string/menu_documents"
+        tools:layout="@layout/fragment_documents" />
+</navigation>
