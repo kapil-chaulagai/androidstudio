@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">iMusic</string>
+    <string name="app_title">iMusic - Your Fav Choice🎶</string>
+    <string name="app_play">Play</string>
+    <string name="app_pause">Pause</string>
+    <string name="app_stop">Stop</string>
+    <string name="app_image">Music</string>
+
+
+</resources>

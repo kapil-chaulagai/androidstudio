@@ -44,8 +44,8 @@
     <fragment
         android:id="@+id/nav_photos"
         android:name="com.isteer.codersmail.ui.drive.photos.PhotosFragment"
-        android:label="@string/menu_documents"
-        tools:layout="@layout/fragment_documents" />
+        android:label="@string/menu_photos"
+        tools:layout="@layout/fragment_photos" />
 
     <fragment
         android:id="@+id/nav_documents"

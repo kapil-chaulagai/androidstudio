@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Content Provider</string>
+    <string name="name_content">Name Here</string>
+    <string name="grade_content">Grade Here</string>
+</resources>

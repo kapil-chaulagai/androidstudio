@@ -2,7 +2,7 @@
     <string name="app_name">Multi Screen Restro</string>
     <string name="welcome_note">Welcome to Kaps Restro</string>
     <string name="button_order">Place Order</string>
-    <string name="editText_hint1">item1</string>
-    <string name="editText_hint2">item2</string>
-    <string name="editText_hint3">item3</string>
+    <string name="editText_hint1">Item-1</string>
+    <string name="editText_hint2">Item-2</string>
+    <string name="editText_hint3">Item-3</string>
 </resources>
