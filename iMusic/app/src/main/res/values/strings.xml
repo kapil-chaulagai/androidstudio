@@ -5,6 +5,7 @@
     <string name="app_pause">Pause</string>
     <string name="app_stop">Stop</string>
     <string name="app_image">Music</string>
+    <string name="adjust_volume">Adjust Volume</string>
 
 
 </resources>

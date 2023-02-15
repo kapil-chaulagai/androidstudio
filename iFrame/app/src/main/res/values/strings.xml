@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">iFrame</string>
+    <string name="image_bg">Background</string>
+    <string name="image0">Marvel</string>
+    <string name="next">next</string>
+    <string name="prev">prev</string>
+    <string name="welcome">My Photo - Frame</string>
+    <string name="status">Marvel</string>
+    <string name="image1">chris_evans</string>
+    <string name="image2">robert_downey</string>
+    <string name="image3">ryan</string>
+    <string name="image4">stan_lee</string>
+    <string name="image5">the_rock</string>
+</resources>

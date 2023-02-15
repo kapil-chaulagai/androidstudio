@@ -2,6 +2,7 @@ package com.isteer.multiscreenrestro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,13 +12,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
     EditText editText1, editText2, editText3;
+    TextView textV;
     Button button;
     public static final String MSG = "com.isteer.multiscreenrestro.ORDER";
     public static final String RSP = "com.isteer.multiscreenrestro.RECEIVED";
-    private int intLayout = 1;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,10 +25,18 @@ public class MainActivity extends AppCompatActivity {
         Intent intent1 = getIntent();
         String responsed = intent1.getStringExtra(RSP);
 //        Set text inside textview to message for response fragment
-        TextView textV = findViewById(R.id.intentView_response);
+        textV = findViewById(R.id.intentView_response);
         textV.setText(responsed);
-    }
 
+    }
+//    @Override
+//    protected void onPause() {
+//        textV.setText("");
+//        editText1.setText("");
+//        editText2.setText("");
+//        editText3.setText("");
+//        super.onPause();
+//    }
     public  void placeOrder(View view){
         Intent intent = new Intent(this,OrderActivity.class);
         editText1 = findViewById(R.id.editText1);
@@ -76,12 +83,5 @@ public class MainActivity extends AppCompatActivity {
         else{
             return true;
         }
-    }
-    @Override
-    public void onBackPressed(){
-            editText1.setText("");
-            editText2.setText("");
-            editText3.setText("");
-            super.onBackPressed();
     }
 }
